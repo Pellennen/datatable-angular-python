@@ -1,0 +1,32 @@
+html{
+  background-color: #5DADE2 ;
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   }
+
+   @keyframes color
+   {
+     0% {
+      background-color: #5DADE2 ;
+    }
+    50% {
+      background-color: #85C1E9 ;
+    }
+    100 {
+      background-color: #5DADE2 ;
+    }
+   }
+
+   @-webkit-keyframes color /* Safari and Chrome - necessary duplicate */
+   {
+     0% {
+      background-color: #5DADE2;
+    }
+    50% {
+      background-color: #85C1E9;
+    }
+    100 {
+      background-color: #5DADE2;
+    }
+   }border-radius: 20px;

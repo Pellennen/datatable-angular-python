@@ -1,0 +1,25 @@
+.container{
+  background-color: #F8F8F8;
+  border-radius: 20px;
+
+}
+.dropdown-box{
+  width: 350px;
+  max-width:350px;
+  word-wrap: break-word;
+
+
+}
+
+@media all and (min-width: 768px) {
+  tr  {
+    td {
+      vertical-align: middle !important;
+    }
+    span {
+      &:not([class]) {
+        padding: 1rem 1rem;
+      }
+    }
+  }
+}
